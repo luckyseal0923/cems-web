@@ -10,3 +10,4 @@ Thumbs.db
 *.sql
 *.exe
 !/supabase/migrations/*.sql
+.env.local
