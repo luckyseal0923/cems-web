@@ -170,6 +170,11 @@ def copy_media(text, output, copied, missing):
         source = (LEGACY / relative).resolve()
         if not source.is_relative_to(LEGACY.resolve()):
             continue
+        if not source.is_file() and relative.startswith(("Upload/news/", "Upload/course/", "Upload/faq/")):
+            # The original image uploader also produced a public thumbnail.
+            thumbnail = source.with_name("s_" + source.name + ".jpg")
+            if thumbnail.is_file():
+                source = thumbnail
         if not source.is_file():
             missing.add(relative)
             continue
