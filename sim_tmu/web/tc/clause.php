@@ -1,0 +1,60 @@
+<?php
+	require("_inc.php");
+	
+	$pageName    = "p4";
+	$subPageName = "p4_1";
+	
+	
+?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<?php require("_in_code_head.php") ?>
+<title><?php echo $pageTitle ?></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META NAME="description" CONTENT="<?php echo $m_description ?>">
+<META NAME="keywords" CONTENT="<?php echo $m_keywords ?>">
+<meta name="Robots" content="all">
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+<?php require("_in_javascript.php") ?>
+
+
+</head>
+
+<body <?php echo $bodytxt; ?>>
+    <div class="clause_page">
+        <div class="clause_logo">
+                <img src="../images/all/logo.jpg" width="426" height="98" border="0" />
+        <!-- logo--></div>
+        
+        <div class="clause_title02">
+                會 / 員 / 專 / 區&nbsp;&nbsp;─ 會員條款
+        <!-- clause_title02--></div>
+        <p class="title_01">臺北醫學大學醫學模擬教育中心會員同意條款<br />
+          <br />
+          請詳細閱讀下列約定條款，並按下確定鍵，您就可以迅速填寫註冊申請書了! 臺北醫學大學 醫學模擬教育中心 網站 網站會員 服務使用條款
+        </p>
+        <div class="line"></div>
+        <ul>
+        	<li>1. 本網站所刊載資料之著作權，除另有規定外，屬於 臺北醫學大學 醫學模擬教育中心 。任何人得為非營利目的自由使用。但使用時，不得變更其內容、詆毀或減損名譽，且必須註明來源為「臺北醫學大學 醫學模擬教育中心」。 </li>
+
+<li>2. 具有上傳資料權限之使用者，得自行決定其資料之著作權歸屬與授權規則。本網站之使用者，應遵守之，並了解本網站對此資料不負任何法律責任。 </li>
+
+<li>3. 本網站盡力維護本網站資料之即時性與正確性，但對此不負任何責任。本所有權不經事先公告，變更網站內容。因此，凡使用者認為涉及其利益之事項，例如考試資格或日期、畢業學分等，請逕與相關業務人員確認。 </li>
+
+<li>4. 本網站盡力維護本網站資料不含任何電腦病毒。但對於任何因下載本網站資料所致電子資訊系統或其他之損害，本網站不負任何責任。 </li>
+
+<li>5. 本網站所提供對其他網站之超連結，僅為使用者之便利。該被連結之他網站，並非本網站之一部分。本網站不保證所連結之他網站存在，亦不對該網站之任何內容、超連結等負責。 </li>
+
+<li>6. 本網站除為提供個人服務之必要外，不使用 cookies ，也不追蹤使用者之網路使用。使用者主動提供之個人資料，除指定目的與分析本網站使用習慣外，不作其他用途。 </li>
+
+<li>7. 本使用規則之修改變更，不預先公告。若使用者對於本規則或本網站有任何意見或建議，請與 webmaster 聯繫。 </li>
+		</ul>
+        
+
+      
+	<!-- clause_page--></div>
+
+</body>
+</html>

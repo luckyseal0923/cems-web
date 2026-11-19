@@ -1,0 +1,11 @@
+/sim_tmu.zip
+/sim_tmu/mySQL/
+/sim_tmu/web/Upload/
+/sim_tmu/web/include/Conn.php
+/sim_tmu/web/include/cart.php
+.ftpquota
+Thumbs.db
+*.php-*
+.env
+*.sql
+*.exe

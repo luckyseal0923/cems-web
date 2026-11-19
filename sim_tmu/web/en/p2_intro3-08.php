@@ -1,0 +1,34 @@
+<?php
+  require("_inc.php");
+  $pageName = "p2";
+  $subPageName = "p2_3";
+?>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <link rel="stylesheet" href="../css/pelple.css" />
+  <link rel="stylesheet" href="../css/font-awesome.css">
+</head>
+
+<body>
+  <div class="pelple_box">
+    <img src="../images/p2/03/p08.png" class="flt p_img">
+    <div class="flt pelple_info">
+      <p><i class="fa fa-user-md"></i><span class="main_txt">張淇龍</span></p>
+      <p><i class="fa fa-heartbeat"></i>行政人員</p>
+      <p><i class="fa fa-envelope"></i><a href="mailto:chilung@tmu.edu.tw">chilung@tmu.edu.tw</a></p>
+      <p><i class="fa fa-phone"></i>02-6638-2736，1033</p>
+      <ul class="word2">
+        <li>&raquo;&ensp;中心參訪活動</li>
+        <li>&raquo;&ensp;辦理國際研討會與師資培訓課程工作坊</li>
+        <li>&raquo;&ensp;教學卓越計畫執行與進度追蹤</li>
+        <li>&raquo;&ensp;校內會議與校務研究</li>
+        <li>&raquo;&ensp;營隊活動</li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>

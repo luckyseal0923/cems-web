@@ -1,0 +1,37 @@
+<?php
+  require("_inc.php");
+  $pageName = "p2";
+  $subPageName = "p2_3";
+?>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <link rel="stylesheet" href="../css/pelple.css" />
+  <link rel="stylesheet" href="../css/font-awesome.css">
+</head>
+
+<body>
+  <div class="pelple_box">
+    <img src="../images/p2/03/p11.png" class="flt p_img">
+    <div class="flt pelple_info">
+      <p><i class="fa fa-user-md"></i><span class="main_txt">陳皓羽</span></p>
+      <p><i class="fa fa-heartbeat"></i>標準化病人首席訓練師/行政人員</p>
+      <p><i class="fa fa-envelope"></i><a href="mailto:haoyu68@tmu.edu.tw">haoyu68@tmu.edu.tw</a></p>
+      <p><i class="fa fa-phone"></i>02-6638-2736，1032</p>
+      <ul class="word2">
+        <li>&raquo;&ensp;中心參訪活動</li>
+        <li>&raquo;&ensp;標準化病人教學活動與招募經營</li>
+        <li>&raquo;&ensp;法規小組</li>
+        <li>&raquo;&ensp;中心基金募款</li>
+        <li>&raquo;&ensp;OSCE業務(含iOSCE與相關課程授課)</li>
+        <li>&raquo;&ensp;辦理醫學模擬教育師資課程</li>
+        <li>&raquo;&ensp;辦理模擬教育師資課程及國際研討會</li>
+        <li>&raquo;&ensp;校內會議與校務研究</li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>

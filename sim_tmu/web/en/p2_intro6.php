@@ -1,0 +1,246 @@
+<?php
+  require("_inc.php");
+	$pageName = "p2";
+	$subPageName = "p2_6";
+  $nav=$home.$icon.$p2.$icon.$p2_6;
+?>
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<?php require("_in_code_head.php"); ?>
+<!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
+<![endif]-->
+
+<!-- Mobile layout control 若需自適應打開此設定 
+<meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+<title><?php echo $pageTitle;?></title>
+<meta name="description" content="" />
+<meta name="keywords" content="<?php echo $m_keywords;?>" />
+<meta name="Robots" content="all" />
+<?php require("_in_javascript.php"); ?>
+</head>
+<body <?php echo $bodytxt; ?>>
+  <div id="wrapper">
+    <?php require("_menu.php"); ?>
+    <?php require("_header.php"); ?>
+    <div class="container clearfix">
+      <?php require("_sidebar.php"); ?>
+      <div class="main">
+        <h2><?php echo $p2_6;?></h2>
+        <div class="site">
+          <? echo $nav;?>
+        </div>
+        <div class="intro_box">
+          <h3 class="title3">醫學模擬教育師資培訓班</h3>
+          <p>上海復旦大學附屬中山醫院的四位醫生及兩位分屬華山醫院跟復旦附屬兒童醫院醫生於2015年1月26日-1月30日出席"醫學模擬教育師資培訓班"，這次的培訓班課程可是我們特地為這六位醫生量身訂製的課程，由中心的林哲瑋執行長及吳建志主任、吳人傑與黃文成醫師親自授課。</p>
+          <br>
+          <div class="project">
+            <div class="cntr mt20">
+              <ul class="pgwSlideshow">
+                <li><img src="../images/p2/06/p01/01.jpg" data-description="醫學模擬教育師資培訓班01"></li>
+                <li><img src="../images/p2/06/p01/02.jpg" data-description="醫學模擬教育師資培訓班02"></li>
+                <li><img src="../images/p2/06/p01/03.jpg" data-description="醫學模擬教育師資培訓班03"></li>
+                <li><img src="../images/p2/06/p01/04.jpg" data-description="醫學模擬教育師資培訓班04"></li>
+                <li><img src="../images/p2/06/p01/05.jpg" data-description="醫學模擬教育師資培訓班05"></li>
+                <li><img src="../images/p2/06/p01/06.jpg" data-description="醫學模擬教育師資培訓班06"></li>
+                <li><img src="../images/p2/06/p01/07.jpg" data-description="醫學模擬教育師資培訓班07"></li>
+                <li><img src="../images/p2/06/p01/08.jpg" data-description="醫學模擬教育師資培訓班08"></li>
+                <li><img src="../images/p2/06/p01/09.jpg" data-description="醫學模擬教育師資培訓班09"></li>
+                <li><img src="../images/p2/06/p01/10.jpg" data-description="醫學模擬教育師資培訓班10"></li>
+                <li><img src="../images/p2/06/p01/11.jpg" data-description="醫學模擬教育師資培訓班11"></li>
+                <li><img src="../images/p2/06/p01/12.jpg" data-description="醫學模擬教育師資培訓班12"></li>
+                <li><img src="../images/p2/06/p01/13.jpg" data-description="醫學模擬教育師資培訓班13"></li>
+                <li><img src="../images/p2/06/p01/14.jpg" data-description="醫學模擬教育師資培訓班14"></li>
+                <li><img src="../images/p2/06/p01/15.jpg" data-description="醫學模擬教育師資培訓班15"></li>
+                <li><img src="../images/p2/06/p01/16.jpg" data-description="醫學模擬教育師資培訓班16"></li>
+                <li><img src="../images/p2/06/p01/17.jpg" data-description="醫學模擬教育師資培訓班17"></li>
+                <li><img src="../images/p2/06/p01/18.jpg" data-description="醫學模擬教育師資培訓班18"></li>
+                <li><img src="../images/p2/06/p01/19.jpg" data-description="醫學模擬教育師資培訓班19"></li>
+                <li><img src="../images/p2/06/p01/20.jpg" data-description="醫學模擬教育師資培訓班20"></li>
+                <li><img src="../images/p2/06/p01/21.jpg" data-description="醫學模擬教育師資培訓班21"></li>
+                <li><img src="../images/p2/06/p01/22.jpg" data-description="醫學模擬教育師資培訓班22"></li>
+                <li><img src="../images/p2/06/p01/23.jpg" data-description="醫學模擬教育師資培訓班23"></li>
+                <li><img src="../images/p2/06/p01/24.jpg" data-description="醫學模擬教育師資培訓班24"></li>
+                <li><img src="../images/p2/06/p01/25.jpg" data-description="醫學模擬教育師資培訓班25"></li>
+                <li><img src="../images/p2/06/p01/26.jpg" data-description="醫學模擬教育師資培訓班26"></li>
+                <li><img src="../images/p2/06/p01/27.jpg" data-description="醫學模擬教育師資培訓班27"></li>
+                <li><img src="../images/p2/06/p01/28.jpg" data-description="醫學模擬教育師資培訓班28"></li>
+                <li><img src="../images/p2/06/p01/29.jpg" data-description="醫學模擬教育師資培訓班29"></li>
+                <li><img src="../images/p2/06/p01/30.jpg" data-description="醫學模擬教育師資培訓班30"></li>
+                <li><img src="../images/p2/06/p01/31.jpg" data-description="醫學模擬教育師資培訓班31"></li>
+                <li><img src="../images/p2/06/p01/32.jpg" data-description="醫學模擬教育師資培訓班32"></li>
+                <li><img src="../images/p2/06/p01/33.jpg" data-description="醫學模擬教育師資培訓班33"></li>
+                <li><img src="../images/p2/06/p01/34.jpg" data-description="醫學模擬教育師資培訓班34"></li>
+                <li><img src="../images/p2/06/p01/35.jpg" data-description="醫學模擬教育師資培訓班35"></li>
+                <li><img src="../images/p2/06/p01/36.jpg" data-description="醫學模擬教育師資培訓班36"></li>
+                <li><img src="../images/p2/06/p01/37.jpg" data-description="醫學模擬教育師資培訓班37"></li>
+                <li><img src="../images/p2/06/p01/38.jpg" data-description="醫學模擬教育師資培訓班38"></li>
+                <li><img src="../images/p2/06/p01/39.jpg" data-description="醫學模擬教育師資培訓班39"></li>
+                <li><img src="../images/p2/06/p01/40.jpg" data-description="醫學模擬教育師資培訓班40"></li>
+                <li><img src="../images/p2/06/p01/41.jpg" data-description="醫學模擬教育師資培訓班41"></li>
+                <li><img src="../images/p2/06/p01/42.jpg" data-description="醫學模擬教育師資培訓班42"></li>
+                <li><img src="../images/p2/06/p01/43.jpg" data-description="醫學模擬教育師資培訓班43"></li>
+                <li><img src="../images/p2/06/p01/44.jpg" data-description="醫學模擬教育師資培訓班44"></li>
+                <li><img src="../images/p2/06/p01/45.jpg" data-description="醫學模擬教育師資培訓班45"></li>
+                <li><img src="../images/p2/06/p01/46.jpg" data-description="醫學模擬教育師資培訓班46"></li>
+                <li><img src="../images/p2/06/p01/47.jpg" data-description="醫學模擬教育師資培訓班47"></li>
+                <li><img src="../images/p2/06/p01/48.jpg" data-description="醫學模擬教育師資培訓班48"></li>
+                <li><img src="../images/p2/06/p01/49.jpg" data-description="醫學模擬教育師資培訓班49"></li>
+                <li><img src="../images/p2/06/p01/50.jpg" data-description="醫學模擬教育師資培訓班50"></li>
+                <li><img src="../images/p2/06/p01/51.jpg" data-description="醫學模擬教育師資培訓班51"></li>
+                <li><img src="../images/p2/06/p01/52.jpg" data-description="醫學模擬教育師資培訓班52"></li>
+                <li><img src="../images/p2/06/p01/53.jpg" data-description="醫學模擬教育師資培訓班53"></li>
+                <li><img src="../images/p2/06/p01/54.jpg" data-description="醫學模擬教育師資培訓班54"></li>
+                <li><img src="../images/p2/06/p01/55.jpg" data-description="醫學模擬教育師資培訓班55"></li>
+                <li><img src="../images/p2/06/p01/56.jpg" data-description="醫學模擬教育師資培訓班56"></li>
+                <li><img src="../images/p2/06/p01/57.jpg" data-description="醫學模擬教育師資培訓班57"></li>
+                <li><img src="../images/p2/06/p01/58.jpg" data-description="醫學模擬教育師資培訓班58"></li>
+                <li><img src="../images/p2/06/p01/59.jpg" data-description="醫學模擬教育師資培訓班59"></li>
+                <li><img src="../images/p2/06/p01/60.jpg" data-description="醫學模擬教育師資培訓班60"></li>
+                <li><img src="../images/p2/06/p01/61.jpg" data-description="醫學模擬教育師資培訓班61"></li>
+                <li><img src="../images/p2/06/p01/62.jpg" data-description="醫學模擬教育師資培訓班62"></li>
+                <li><img src="../images/p2/06/p01/63.jpg" data-description="醫學模擬教育師資培訓班63"></li>
+                <li><img src="../images/p2/06/p01/64.jpg" data-description="醫學模擬教育師資培訓班64"></li>
+                <li><img src="../images/p2/06/p01/65.jpg" data-description="醫學模擬教育師資培訓班65"></li>
+                <li><img src="../images/p2/06/p01/66.jpg" data-description="醫學模擬教育師資培訓班66"></li>
+                <li><img src="../images/p2/06/p01/67.jpg" data-description="醫學模擬教育師資培訓班67"></li>
+                <li><img src="../images/p2/06/p01/68.jpg" data-description="醫學模擬教育師資培訓班68"></li>
+                <li><img src="../images/p2/06/p01/69.jpg" data-description="醫學模擬教育師資培訓班69"></li>
+                <li><img src="../images/p2/06/p01/70.jpg" data-description="醫學模擬教育師資培訓班70"></li>
+                <li><img src="../images/p2/06/p01/71.jpg" data-description="醫學模擬教育師資培訓班71"></li>
+                <li><img src="../images/p2/06/p01/72.jpg" data-description="醫學模擬教育師資培訓班72"></li>
+                <li><img src="../images/p2/06/p01/73.jpg" data-description="醫學模擬教育師資培訓班73"></li>
+                <li><img src="../images/p2/06/p01/74.jpg" data-description="醫學模擬教育師資培訓班74"></li>
+                <li><img src="../images/p2/06/p01/75.jpg" data-description="醫學模擬教育師資培訓班75"></li>
+                <li><img src="../images/p2/06/p01/76.jpg" data-description="醫學模擬教育師資培訓班76"></li>
+                <li><img src="../images/p2/06/p01/77.jpg" data-description="醫學模擬教育師資培訓班77"></li>
+                <li><img src="../images/p2/06/p01/78.jpg" data-description="醫學模擬教育師資培訓班78"></li>
+                <li><img src="../images/p2/06/p01/79.jpg" data-description="醫學模擬教育師資培訓班79"></li>
+                <li><img src="../images/p2/06/p01/80.jpg" data-description="醫學模擬教育師資培訓班80"></li>
+                <li><img src="../images/p2/06/p01/81.jpg" data-description="醫學模擬教育師資培訓班81"></li>
+                <li><img src="../images/p2/06/p01/82.jpg" data-description="醫學模擬教育師資培訓班82"></li>
+                <li><img src="../images/p2/06/p01/83.jpg" data-description="醫學模擬教育師資培訓班83"></li>
+                <li><img src="../images/p2/06/p01/84.jpg" data-description="醫學模擬教育師資培訓班84"></li>
+                <li><img src="../images/p2/06/p01/85.jpg" data-description="醫學模擬教育師資培訓班85"></li>
+                <li><img src="../images/p2/06/p01/86.jpg" data-description="醫學模擬教育師資培訓班86"></li>
+                <li><img src="../images/p2/06/p01/87.jpg" data-description="醫學模擬教育師資培訓班87"></li>
+                <li><img src="../images/p2/06/p01/88.jpg" data-description="醫學模擬教育師資培訓班88"></li>
+                <li><img src="../images/p2/06/p01/89.jpg" data-description="醫學模擬教育師資培訓班89"></li>
+                <li><img src="../images/p2/06/p01/90.jpg" data-description="醫學模擬教育師資培訓班90"></li>
+                <li><img src="../images/p2/06/p01/91.jpg" data-description="醫學模擬教育師資培訓班91"></li>
+                <li><img src="../images/p2/06/p01/92.jpg" data-description="醫學模擬教育師資培訓班92"></li>
+                <li><img src="../images/p2/06/p01/93.jpg" data-description="醫學模擬教育師資培訓班93"></li>
+                <li><img src="../images/p2/06/p01/94.jpg" data-description="醫學模擬教育師資培訓班94"></li>
+                <li><img src="../images/p2/06/p01/95.jpg" data-description="醫學模擬教育師資培訓班95"></li>
+                <li><img src="../images/p2/06/p01/96.jpg" data-description="醫學模擬教育師資培訓班96"></li>
+                <li><img src="../images/p2/06/p01/97.jpg" data-description="醫學模擬教育師資培訓班97"></li>
+                <li><img src="../images/p2/06/p01/98.jpg" data-description="醫學模擬教育師資培訓班98"></li>
+                <li><img src="../images/p2/06/p01/99.jpg" data-description="醫學模擬教育師資培訓班99"></li>
+                <li><img src="../images/p2/06/p01/100.jpg" data-description="醫學模擬教育師資培訓班100"></li>
+                <li><img src="../images/p2/06/p01/101.jpg" data-description="醫學模擬教育師資培訓班101"></li>
+                <li><img src="../images/p2/06/p01/102.jpg" data-description="醫學模擬教育師資培訓班102"></li>
+                <li><img src="../images/p2/06/p01/103.jpg" data-description="醫學模擬教育師資培訓班103"></li>
+                <li><img src="../images/p2/06/p01/104.jpg" data-description="醫學模擬教育師資培訓班104"></li>
+                <li><img src="../images/p2/06/p01/105.jpg" data-description="醫學模擬教育師資培訓班105"></li>
+                <li><img src="../images/p2/06/p01/106.jpg" data-description="醫學模擬教育師資培訓班106"></li>
+                <li><img src="../images/p2/06/p01/107.jpg" data-description="醫學模擬教育師資培訓班107"></li>
+                <li><img src="../images/p2/06/p01/108.jpg" data-description="醫學模擬教育師資培訓班108"></li>
+                <li><img src="../images/p2/06/p01/109.jpg" data-description="醫學模擬教育師資培訓班109"></li>
+                <li><img src="../images/p2/06/p01/110.jpg" data-description="醫學模擬教育師資培訓班110"></li>
+                <li><img src="../images/p2/06/p01/111.jpg" data-description="醫學模擬教育師資培訓班111"></li>
+                <li><img src="../images/p2/06/p01/112.jpg" data-description="醫學模擬教育師資培訓班112"></li>
+                <li><img src="../images/p2/06/p01/113.jpg" data-description="醫學模擬教育師資培訓班113"></li>
+              </ul>
+            </div>
+            <!--project-->
+          </div>
+        </div>
+        <br><br>
+        <div class="intro_box">
+          <h3 class="title2">醫療核心能力暨模擬教學國際研討會</h3>
+          <p>醫療核心能力暨模擬教學國際研討會</p>
+          <br>
+          <div class="project">
+            <div class="cntr mt20">
+              <ul class="pgwSlideshow">
+                <li><img src="../images/p2/06/p02/01.jpg" data-description="醫療核心能力暨模擬教學國際研討會01"></li>
+                <li><img src="../images/p2/06/p02/02.jpg" data-description="醫療核心能力暨模擬教學國際研討會02"></li>
+                <li><img src="../images/p2/06/p02/03.jpg" data-description="醫療核心能力暨模擬教學國際研討會03"></li>
+                <li><img src="../images/p2/06/p02/04.jpg" data-description="醫療核心能力暨模擬教學國際研討會04"></li>
+                <li><img src="../images/p2/06/p02/05.jpg" data-description="醫療核心能力暨模擬教學國際研討會05"></li>
+                <li><img src="../images/p2/06/p02/06.jpg" data-description="醫療核心能力暨模擬教學國際研討會06"></li>
+                <li><img src="../images/p2/06/p02/07.jpg" data-description="醫療核心能力暨模擬教學國際研討會07"></li>
+                <li><img src="../images/p2/06/p02/08.jpg" data-description="醫療核心能力暨模擬教學國際研討會08"></li>
+                <li><img src="../images/p2/06/p02/09.jpg" data-description="醫療核心能力暨模擬教學國際研討會09"></li>
+                <li><img src="../images/p2/06/p02/10.jpg" data-description="醫療核心能力暨模擬教學國際研討會10"></li>
+                <li><img src="../images/p2/06/p02/11.jpg" data-description="醫療核心能力暨模擬教學國際研討會11"></li>
+                <li><img src="../images/p2/06/p02/12.jpg" data-description="醫療核心能力暨模擬教學國際研討會12"></li>
+                <li><img src="../images/p2/06/p02/13.jpg" data-description="醫療核心能力暨模擬教學國際研討會13"></li>
+                <li><img src="../images/p2/06/p02/14.jpg" data-description="醫療核心能力暨模擬教學國際研討會14"></li>
+                <li><img src="../images/p2/06/p02/15.jpg" data-description="醫療核心能力暨模擬教學國際研討會15"></li>
+                <li><img src="../images/p2/06/p02/16.jpg" data-description="醫療核心能力暨模擬教學國際研討會16"></li>
+                <li><img src="../images/p2/06/p02/17.jpg" data-description="醫療核心能力暨模擬教學國際研討會17"></li>
+                <li><img src="../images/p2/06/p02/18.jpg" data-description="醫療核心能力暨模擬教學國際研討會18"></li>
+                <li><img src="../images/p2/06/p02/19.jpg" data-description="醫療核心能力暨模擬教學國際研討會19"></li>
+                <li><img src="../images/p2/06/p02/20.jpg" data-description="醫療核心能力暨模擬教學國際研討會20"></li>
+                <li><img src="../images/p2/06/p02/21.jpg" data-description="醫療核心能力暨模擬教學國際研討會21"></li>
+                <li><img src="../images/p2/06/p02/22.jpg" data-description="醫療核心能力暨模擬教學國際研討會22"></li>
+                <li><img src="../images/p2/06/p02/23.jpg" data-description="醫療核心能力暨模擬教學國際研討會23"></li>
+                <li><img src="../images/p2/06/p02/24.jpg" data-description="醫療核心能力暨模擬教學國際研討會24"></li>
+                <li><img src="../images/p2/06/p02/25.jpg" data-description="醫療核心能力暨模擬教學國際研討會25"></li>
+                <li><img src="../images/p2/06/p02/26.jpg" data-description="醫療核心能力暨模擬教學國際研討會26"></li>
+                <li><img src="../images/p2/06/p02/27.jpg" data-description="醫療核心能力暨模擬教學國際研討會27"></li>
+                <li><img src="../images/p2/06/p02/28.jpg" data-description="醫療核心能力暨模擬教學國際研討會28"></li>
+                <li><img src="../images/p2/06/p02/29.jpg" data-description="醫療核心能力暨模擬教學國際研討會29"></li>
+                <li><img src="../images/p2/06/p02/30.jpg" data-description="醫療核心能力暨模擬教學國際研討會30"></li>
+                <li><img src="../images/p2/06/p02/31.jpg" data-description="醫療核心能力暨模擬教學國際研討會31"></li>
+                <li><img src="../images/p2/06/p02/32.jpg" data-description="醫療核心能力暨模擬教學國際研討會32"></li>
+                <li><img src="../images/p2/06/p02/33.jpg" data-description="醫療核心能力暨模擬教學國際研討會33"></li>
+                <li><img src="../images/p2/06/p02/34.jpg" data-description="醫療核心能力暨模擬教學國際研討會34"></li>
+                <li><img src="../images/p2/06/p02/35.jpg" data-description="醫療核心能力暨模擬教學國際研討會35"></li>
+                <li><img src="../images/p2/06/p02/36.jpg" data-description="醫療核心能力暨模擬教學國際研討會36"></li>
+                <li><img src="../images/p2/06/p02/37.jpg" data-description="醫療核心能力暨模擬教學國際研討會37"></li>
+                <li><img src="../images/p2/06/p02/38.jpg" data-description="醫療核心能力暨模擬教學國際研討會38"></li>
+                <li><img src="../images/p2/06/p02/39.jpg" data-description="醫療核心能力暨模擬教學國際研討會39"></li>
+                <li><img src="../images/p2/06/p02/40.jpg" data-description="醫療核心能力暨模擬教學國際研討會40"></li>
+                <li><img src="../images/p2/06/p02/41.jpg" data-description="醫療核心能力暨模擬教學國際研討會41"></li>
+                <li><img src="../images/p2/06/p02/42.jpg" data-description="醫療核心能力暨模擬教學國際研討會42"></li>
+                <li><img src="../images/p2/06/p02/43.jpg" data-description="醫療核心能力暨模擬教學國際研討會43"></li>
+                <li><img src="../images/p2/06/p02/44.jpg" data-description="醫療核心能力暨模擬教學國際研討會44"></li>
+                <li><img src="../images/p2/06/p02/45.jpg" data-description="醫療核心能力暨模擬教學國際研討會45"></li>
+                <li><img src="../images/p2/06/p02/46.jpg" data-description="醫療核心能力暨模擬教學國際研討會46"></li>
+                <li><img src="../images/p2/06/p02/47.jpg" data-description="醫療核心能力暨模擬教學國際研討會47"></li>
+                <li><img src="../images/p2/06/p02/48.jpg" data-description="醫療核心能力暨模擬教學國際研討會48"></li>
+                <li><img src="../images/p2/06/p02/49.jpg" data-description="醫療核心能力暨模擬教學國際研討會49"></li>
+                <li><img src="../images/p2/06/p02/50.jpg" data-description="醫療核心能力暨模擬教學國際研討會50"></li>
+                <li><img src="../images/p2/06/p02/51.jpg" data-description="醫療核心能力暨模擬教學國際研討會51"></li>
+                <li><img src="../images/p2/06/p02/52.jpg" data-description="醫療核心能力暨模擬教學國際研討會52"></li>
+                <li><img src="../images/p2/06/p02/53.jpg" data-description="醫療核心能力暨模擬教學國際研討會53"></li>
+                <li><img src="../images/p2/06/p02/54.jpg" data-description="醫療核心能力暨模擬教學國際研討會54"></li>
+                <li><img src="../images/p2/06/p02/55.jpg" data-description="醫療核心能力暨模擬教學國際研討會55"></li>
+                <li><img src="../images/p2/06/p02/56.jpg" data-description="醫療核心能力暨模擬教學國際研討會56"></li>
+                <li><img src="../images/p2/06/p02/57.jpg" data-description="醫療核心能力暨模擬教學國際研討會57"></li>
+                <li><img src="../images/p2/06/p02/58.jpg" data-description="醫療核心能力暨模擬教學國際研討會58"></li>
+                <li><img src="../images/p2/06/p02/59.jpg" data-description="醫療核心能力暨模擬教學國際研討會59"></li>
+                <li><img src="../images/p2/06/p02/60.jpg" data-description="醫療核心能力暨模擬教學國際研討會60"></li>
+                <li><img src="../images/p2/06/p02/61.jpg" data-description="醫療核心能力暨模擬教學國際研討會61"></li>
+                <li><img src="../images/p2/06/p02/62.jpg" data-description="醫療核心能力暨模擬教學國際研討會62"></li>
+              </ul>
+            </div>
+            <script src="../js/jquery.min.js"></script>
+            <!--project-->
+          </div>
+        </div>
+        <!--main-->
+      </div>
+      <!--container-->
+    </div>
+    <!--wrapper-->
+  </div>
+  <?php require("_footer.php"); ?>
+</body>
+
+</html>

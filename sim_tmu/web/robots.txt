@@ -1,0 +1,9 @@
+User-agent:*
+Allow: /
+Disallow: /*?*
+Disallow: /DB/
+Disallow: /manage/
+Disallow: /include/
+Disallow: /PHPMailer/
+Disallow: /Upload/
+Disallow: /_bak/

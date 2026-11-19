@@ -1,0 +1,32 @@
+<?php
+  require("_inc.php");
+  $pageName = "p2";
+  $subPageName = "p2_3";
+?>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <link rel="stylesheet" href="../css/pelple.css" />
+  <link rel="stylesheet" href="../css/font-awesome.css">
+</head>
+
+<body>
+  <div class="pelple_box">
+    <img src="../images/p2/03/p02.png" class="flt p_img">
+    <div class="flt pelple_info">
+      <p><i class="fa fa-user-md"></i><span class="main_txt">林哲瑋</span></p>
+      <p><i class="fa fa-heartbeat"></i>醫學模擬教育中心主任</p>
+      <p><i class="fa fa-envelope"></i><a href="mailto:thomas0205@gmail.com">thomas0205@gmail.com</a></p>
+      <p><i class="fa fa-phone"></i>02-6638-2736，分機1033</p>
+      <ul class="word2">
+        <li>&raquo;&ensp;督導中心業務</li>
+        <li>&raquo;&ensp;規劃模擬醫學師資培育課程及工作坊</li>
+        <li>&raquo;&ensp;協助全校各院系所發展模擬醫學課程</li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
