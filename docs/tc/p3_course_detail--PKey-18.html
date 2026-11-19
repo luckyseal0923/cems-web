@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--FB讚用(在FB,滑過讚的項目會出現圖及文章名)-->
+<meta property="og:site_name" content="台北醫學大學-醫學模擬教育中心"/>
+<meta property="og:type" content="article" />
+<meta property="og:title" content="台北醫學大學-醫學模擬教育中心"/>
+<meta property="og:image" content="../images/all/logo.png"/>
+<meta property="og:url" content="p3_course.html" />
+<meta property="og:description" content="" />
+<meta property="fb:admins" content="aokaku" />
+<link rel="image_src" type="image/jpeg" href="../images/all/logo.png" />
+<link rel="shortcut icon" href="../images/all/logo.png" type="image/x-icon" />
+
+<!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
+<![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
+<![endif]-->
+<!-- Mobile layout control 若需自適應打開此設定 
+<meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+<title>
+課程資訊∣台北醫學大學-醫學模擬教育中心</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="Robots" content="all" />
+<!--[if lt IE 9]>
+<script src="../js/assets/html5shiv.min.js"></script>
+<script src="../js/assets/respond.min.js"></script>
+<![endif]-->
+<!--IE9以下支援HTML5、自適應-->
+
+<script src="../js/jquery-1.8.3.min.js"></script>
+
+
+<link rel="stylesheet" href="../css/font-awesome.css">
+
+
+
+<script>
+/*------折疊選單------*/
+( function( $ ) {
+$( document ).ready(function() {
+$('#cssmenu li.has-sub>a').on('click', function(){
+		$(this).removeAttr('href');
+		var element = $(this).parent('li');
+		if (element.hasClass('open')) {
+			element.removeClass('open');
+			element.find('li').removeClass('open');
+			element.find('ul').slideUp();
+		}
+		else {
+			element.addClass('open');
+			element.children('ul').slideDown();
+			element.siblings('li').children('ul').slideUp();
+			element.siblings('li').removeClass('open');
+			element.siblings('li').find('li').removeClass('open');
+			element.siblings('li').find('ul').slideUp();
+		}
+	});
+
+	$('#cssmenu>ul>li.has-sub>a').append('<span class="holder"></span>');
+
+	(function getColor() {
+		var r, g, b;
+		var textColor = $('#cssmenu').css('color');
+		textColor = textColor.slice(4);
+		r = textColor.slice(0, textColor.indexOf(','));
+		textColor = textColor.slice(textColor.indexOf(' ') + 1);
+		g = textColor.slice(0, textColor.indexOf(','));
+		textColor = textColor.slice(textColor.indexOf(' ') + 1);
+		b = textColor.slice(0, textColor.indexOf(')'));
+		var l = rgbToHsl(r, g, b);
+		if (l > 0.7) {
+			$('#cssmenu>ul>li>a').css('text-shadow', '0 1px 1px rgba(0, 0, 0, .35)');
+			$('#cssmenu>ul>li>a>span').css('border-color', 'rgba(0, 0, 0, .35)');
+		}
+		else
+		{
+			$('#cssmenu>ul>li>a').css('text-shadow', '0 1px 0 rgba(255, 255, 255, .35)');
+			$('#cssmenu>ul>li>a>span').css('border-color', 'rgba(255, 255, 255, .35)');
+		}
+	})();
+
+	function rgbToHsl(r, g, b) {
+	    r /= 255, g /= 255, b /= 255;
+	    var max = Math.max(r, g, b), min = Math.min(r, g, b);
+	    var h, s, l = (max + min) / 2;
+
+	    if(max == min){
+	        h = s = 0;
+	    }
+	    else {
+	        var d = max - min;
+	        s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+	        switch(max){
+	            case r: h = (g - b) / d + (g < b ? 6 : 0); break;
+	            case g: h = (b - r) / d + 2; break;
+	            case b: h = (r - g) / d + 4; break;
+	        }
+	        h /= 6;
+	    }
+	    return l;
+	}
+});
+} )( jQuery );
+</script>
+
+<script src="../js/script.js"></script>
+
+<script>
+function myFunction() {
+    alert("瀏覽【器材租借】，請使用Chrome瀏覽器!");
+}
+</script>
+
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body >
+<div id="wrapper">
+  <header>
+  <div class="headerContainer">
+    <h2><a href="index.html"><img src="../images/all/logo.png" width="210"></a></h2>
+    <h1><a href="index.html"><img src="../images/all/logo.jpg" width="310"></a></h1>
+    <ul class="submenu">
+      <li><a href="index.html"><img src="../images/all/top_icon1.png" onMouseOut="this.src='../images/all/top_icon1.png'" onMouseOver="this.src='../images/all/top_icon1_b.png'" /></a></li>
+      <li><a href="p10_sitemap.html"><img src="../images/all/sitemap.png" onMouseOut="this.src='../images/all/sitemap.png'" onMouseOver="this.src='../images/all/sitemap_b.png'" /></a></li>
+      <li><a href="https://www.tmu.edu.tw/" target="_blank"><img src="../images/all/top_icon4.png" onMouseOut="this.src='../images/all/top_icon4.png'" onMouseOver="this.src='../images/all/top_icon4_b.png'" /></a></li>
+      <!--<li><a href="../en/"><img src="../images/all/eng.png" onMouseOut="this.src='../images/all/eng.png'" onMouseOver="this.src='../images/all/eng_b.png'" /></a></li>-->
+      <li><a href="../en/"><img src="../images/all/eng.png" onMouseOut="this.src='../images/all/eng.png'" onMouseOver="this.src='../images/all/eng_b.png'" /></a></li>
+      <!--submenu-->
+    </ul>
+    <!--headerContainer-->
+  </div>
+</header>
+<!--頁首-->
+<nav>
+  <ul>
+    <li class=""><a href="p1_news.html">最新消息</a></li>
+    <li> / </li>
+    <li class=""><a href="p2_intro.html">中心介紹</a></li>
+    <li> / </li>
+    <li class=""><a href="p3_course.html">課程資訊</a></li>
+    <li> / </li>
+    <li class=""><a href="p5_classroom_cost.html">場地租借</a></li>
+    <!--<li> / </li>
+        <li><a href="http://cems.tmu.edu.tw/dms/index.html" target="_blank" onclick="myFunction()">器材租借</a></li> -->
+    <li> / </li>
+    <li class=""><a href="p7_download.html">下載專區</a></li>
+    <li> / </li>
+    <li class=""><a href="p8_faq.html">常見問題</a></li>
+    <li> / </li>
+    <li class=""><a href="p11_link.html">相關連結</a></li>
+    <li> / </li>
+    <li class=""><a href="p9_contact.html">聯絡我們</a></li>
+  </ul>
+</nav>
+<!--nav 主選單-->
+  <div class="page_header">
+	<br>  
+</div>
+<!--頁首-->
+  <div class="container clearfix">
+    
+<div id="cssmenu" class="sidebar">
+    <ul>
+          <li class=" open"><a href="p3_course--C1_PKey-1.html">課程資訊</a>
+          <ul>
+                        		<li><a href="p3_course--C2_PKey-15.html">中心課程地圖</a></li>
+                        		<li><a href="p3_course--C2_PKey-14.html">各系模擬課程</a></li>
+                        		<li class="mark"><a href="p3_course--C2_PKey-16.html">師資培訓課程</a></li>
+                            
+          </ul>
+        </li>
+    </ul>
+  
+    
+  <!--  <a href="../service.html#rental"><img src="../images/all/sidebar_btn1.png" class="sidebar_img"></a> -->
+      <!--<a href="http://cems.tmu.edu.tw/dms/index.html" target="_blank" onclick="myFunction()"><img src="../images/all/sidebar_btn2.png" class="sidebar_img"></a> -->
+    <br>
+  <br>
+</div>
+    <div class="main">
+      <h2>
+        師資培訓課程      </h2>
+      <div class="site">首頁&nbsp;&#62;&nbsp;課程資訊&nbsp;&#62;&nbsp;課程資訊</div>
+      <div class="detail_box">
+        <div class="detail_title">
+          <p class="i_icon">i</p>
+          iSIM師資培育課程</div>
+        <div  class="detail_dataBox">
+          <table class="detail_data">
+            <tr>
+              <th>授課講師</th>
+              <td>Paul Phrampus與林哲瑋執行長等師資</td>
+            </tr>
+                                              </table>
+          <div class="flr">
+          	                      </div>
+        </div>
+        <div class="course_detail"><i class="fa fa-square"></i>課程介紹</div>
+                <!----編輯器----->
+        <div class="detail_box"><div style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 14px;"><span class="il">iSIM</span>系列課程是由美國匹茲堡大學WISER中心與邁阿密大學Gordon中心共同研發的國際知名模擬教育師資培訓課程，已在美、新、馬、日、韓、香港及國內開辦多場。</div>
+
+<div style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 14px;">課程的訓練目標是想借由課程講授與實作練習，讓欲從事模擬教學及醫學教育的教師擁有相關的技巧與能力。並讓模擬教學從業人員，從掌握教學能力到熟練，從實際運用到理論教學、團隊合作、教學研究，都有更深刻的認知。</div></div>
+                <!----編輯器----->
+                <div class="back_btn"><a href="javascript:history.back()">上一頁</a></div>
+      </div>
+      <!--detail_box-->
+      <!--main-->
+    </div>
+    <!--container-->
+  </div>
+  <!--wrapper-->
+</div>
+<form id="SearchF" name="SearchF" method="post" action="">
+<input name="Page" type="hidden" id="Page" value="" />
+<input name="Keyword" type="hidden" id="Keyword" value="" />
+</form>
+<footer>
+	
+    <div class="goTop"><a href="#"><img src="../images/all/gotop.png"></a></div>
+    
+    <div class="footer_info">
+    <img src="../images/all/footer_logo.png" class="footer_logo">
+    <div class="flt">本網站著作權屬於臺北醫學大學 醫學模擬教育中心，請詳見使用規則。  &emsp;更新日期:2023/11/28<br>
+地址：110臺北市信義區吳興街250號 醫學模擬教育大樓&emsp;電話：(02)2736-1661&emsp;分機3330、3333、3336<br>
+E-Mail：<a href="mailto:hungchen@tmu.edu.tw">hungchen@tmu.edu.tw</a> &nbsp; TSG <a href="http://www.tsg.com.tw/" target="_blank">網頁設計</a> &nbsp;網頁到訪人數：49099	</div>	
+    </div>    
+</footer></body>
+</html>

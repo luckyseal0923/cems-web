@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!--FB讚用(在FB,滑過讚的項目會出現圖及文章名)-->
+<meta property="og:site_name" content="台北醫學大學-醫學模擬教育中心"/>
+<meta property="og:type" content="article" />
+<meta property="og:title" content="台北醫學大學-醫學模擬教育中心"/>
+<meta property="og:image" content="../images/all/logo.png"/>
+<meta property="og:url" content="p3_course.html" />
+<meta property="og:description" content="" />
+<meta property="fb:admins" content="aokaku" />
+<link rel="image_src" type="image/jpeg" href="../images/all/logo.png" />
+<link rel="shortcut icon" href="../images/all/logo.png" type="image/x-icon" />
+
+<!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
+<![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
+<![endif]-->
+
+  <!-- Mobile layout control 若需自適應打開此設定 
+<meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+  <title>Curriculum∣台北醫學大學-醫學模擬教育中心</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="Robots" content="all" />
+  <!--[if lt IE 9]>
+<script src="../js/assets/html5shiv.min.js"></script>
+<script src="../js/assets/respond.min.js"></script>
+<![endif]-->
+<!--IE9以下支援HTML5、自適應-->
+
+<script src="../js/jquery-1.8.3.min.js"></script>
+<link rel="stylesheet" href="../css/font-awesome.css">
+
+
+
+<script>
+  
+/*------折疊選單------*/
+( function( $ ) {
+$( document ).ready(function() {
+$('#cssmenu li.has-sub>a').on('click', function(){
+		$(this).removeAttr('href');
+		var element = $(this).parent('li');
+		if (element.hasClass('open')) {
+			element.removeClass('open');
+			element.find('li').removeClass('open');
+			element.find('ul').slideUp();
+		}
+		else {
+			element.addClass('open');
+			element.children('ul').slideDown();
+			element.siblings('li').children('ul').slideUp();
+			element.siblings('li').removeClass('open');
+			element.siblings('li').find('li').removeClass('open');
+			element.siblings('li').find('ul').slideUp();
+		}
+	});
+
+	$('#cssmenu>ul>li.has-sub>a').append('<span class="holder"></span>');
+
+	(function getColor() {
+		var r, g, b;
+		var textColor = $('#cssmenu').css('color');
+		textColor = textColor.slice(4);
+		r = textColor.slice(0, textColor.indexOf(','));
+		textColor = textColor.slice(textColor.indexOf(' ') + 1);
+		g = textColor.slice(0, textColor.indexOf(','));
+		textColor = textColor.slice(textColor.indexOf(' ') + 1);
+		b = textColor.slice(0, textColor.indexOf(')'));
+		var l = rgbToHsl(r, g, b);
+		if (l > 0.7) {
+			$('#cssmenu>ul>li>a').css('text-shadow', '0 1px 1px rgba(0, 0, 0, .35)');
+			$('#cssmenu>ul>li>a>span').css('border-color', 'rgba(0, 0, 0, .35)');
+		}
+		else
+		{
+			$('#cssmenu>ul>li>a').css('text-shadow', '0 1px 0 rgba(255, 255, 255, .35)');
+			$('#cssmenu>ul>li>a>span').css('border-color', 'rgba(255, 255, 255, .35)');
+		}
+	})();
+
+	function rgbToHsl(r, g, b) {
+	    r /= 255, g /= 255, b /= 255;
+	    var max = Math.max(r, g, b), min = Math.min(r, g, b);
+	    var h, s, l = (max + min) / 2;
+
+	    if(max == min){
+	        h = s = 0;
+	    }
+	    else {
+	        var d = max - min;
+	        s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+	        switch(max){
+	            case r: h = (g - b) / d + (g < b ? 6 : 0); break;
+	            case g: h = (b - r) / d + 2; break;
+	            case b: h = (r - g) / d + 4; break;
+	        }
+	        h /= 6;
+	    }
+	    return l;
+	}
+});
+} )( jQuery );
+</script>
+
+<script src="../js/script.js"></script>
+
+<script>
+function myFunction() {
+    alert("瀏覽【器材租借】，請使用Chrome瀏覽器!");
+}
+</script>
+
+
+<link rel="stylesheet" href="../css/style.css?20200318">
+<link href="../css/banner.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="../css/style_en.css?202003181"></head>
+<body >
+  <div id="wrapper">
+    <header>
+  <div class="headerContainer">
+    <h2><a href="index.html"><img src="../images/all/logo.png" width="210"></a></h2>
+    <h1><a href="index.html"><img src="../images/all/logo.jpg" width="310"></a></h1>
+    <ul class="submenu">
+      <li><a href="index.html"><img src="../images/all/top_icon1_en.png" onMouseOut="this.src='../images/all/top_icon1_en.png'" onMouseOver="this.src='../images/all/top_icon1_b_en.png'" /></a></li>
+      <li><a href="p10_sitemap.html"><img src="../images/all/sitemap_en.png" onMouseOut="this.src='../images/all/sitemap_en.png'" onMouseOver="this.src='../images/all/sitemap_b_en.png'" /></a></li>
+      <li><a href="https://www.tmu.edu.tw/" target="_blank"><img src="../images/all/top_icon4_en.png" onMouseOut="this.src='../images/all/top_icon4_en.png'" onMouseOver="this.src='../images/all/top_icon4_b_en.png'" /></a></li>
+      <li><a href="../tc/"><img src="../images/all/tc_en.png" onMouseOut="this.src='../images/all/tc_en.png'" onMouseOver="this.src='../images/all/tc_b_en.png'" /></a></li>
+      <!--submenu-->
+    </ul>
+    <!--headerContainer-->
+  </div>
+</header>
+<!--頁首-->
+<nav>
+  <ul>
+    <li class=""><a href="p1_news.html">News</a></li>
+    <li> / </li>
+    <li class=""><a href="p2_intro.html">About CEMS</a></li>
+    <li> / </li>
+    <li class=""><a href="p3_course.html">Curriculum</a></li>
+    <li> / </li>
+    <li class=""><a href="p5_classroom_cost.html">Space Rental</a></li>
+    <!--<li> / </li>
+    <li><a href="http://cems.tmu.edu.tw/dms/index.html" target="_blank" onclick="myFunction()">Facility Rental</a></li> -->
+    <li> / </li>
+    <li class=""><a href="p7_download.html">Download</a></li>
+    <li> / </li>
+    <li class=""><a href="p8_faq.html">Q&A TMU</a></li>
+    <li> / </li>
+    <li class=""><a href="p11_link.html">Link</a></li>
+    <li> / </li>
+    <li class=""><a href="p9_contact.html">Contact us</a></li>
+  </ul>
+</nav>
+<!--nav 主選單-->
+    <div class="page_header">
+	<br>  
+</div>
+<!--頁首-->
+    <div class="container clearfix">
+      <div id="cssmenu" class="sidebar">
+    <ul>
+        <li class=" open"><a href="p3_course--C1_PKey-3.html">
+        Information of Simulated</a>
+      <ul>
+                <li><a href="p3_course--C2_PKey-20.html">
+            Educational Curriculum</a>
+    </li>
+            <li><a href="p3_course--C2_PKey-19.html">
+            Simulated curriculum</a>
+    </li>
+            <li class="mark"><a href="p3_course--C2_PKey-21.html">
+            Faculty Teaching Curriculum</a>
+    </li>
+      </ul>
+  </li>
+    </ul>
+
+  
+  <!--  <a href="../service.html#rental"><img src="../images/all/sidebar_btn1_en.png" class="sidebar_img"></a> -->
+      <!--<a href="http://cems.tmu.edu.tw/dms/index.html" target="_blank" onclick="myFunction()"><img src="../images/all/sidebar_btn2.png" class="sidebar_img"></a> -->
+    <br>
+  <br>
+</div>
+      <div class="main">
+        <h2>Faculty Teaching Curriculum</h2>
+        <div class="site">Home&nbsp;&#62;&nbsp;Curriculum&nbsp;&#62;&nbsp;Faculty Teaching Curriculum</div>
+        <div class="detail_box">
+          <div class="detail_title">
+            <p class="i_icon">i</p>iSIM Course          </div>
+          <div class="detail_dataBox">
+            <div class="data_area">
+              <table class="detail_data">
+                                <tr>
+                  <th>Lecturer</th>
+                  <td>Paul Phrampus</td>
+                </tr>
+                                
+                                                <tr>
+                  <th>Sign-up Deadline</th>
+                  <td>
+                                      </td>
+                </tr>
+                              </table>
+                            <ul><div style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 14px;">iSIM series courses are internationally renowned simulation education teacher training courses jointly developed by the University of Pittsburgh WISER Center and the University of Miami Gordon Center. They have been held in the United States, Singapore, Malaysia, Japan, Korea, Hong Kong and China.<br>
+The training goal of the course is to make teachers who want to engage in simulation teaching and medical education have relevant skills and abilities through the lectures and practical exercises. And let simulation teaching practitioners have a deeper understanding from mastering teaching ability to proficiency, from practical application to theoretical teaching, teamwork, teaching research.</div></ul>
+                          </div>
+            <div class="flr">
+                                        </div>
+          </div>
+          <div class="course_detail"><i class="fa fa-square"></i>Course Introduction</div>
+          <!--上圖下文-->
+          <div class="detail_box"><img src="../Upload/course/course_201801291239045.jpg"></div>          <div class="detail_box"><div style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 14px;">The course insists on small class teaching because it wants to allow students to have the greatest degree of participation, maximize the initiative of each student in the class, and then the instructor will give guidance and feedback based on each person&#39;s performance. The combination of theory and practice in the design of curriculum training will be very practical for teachers engaged in simulation teaching.</div></div>          <!--左圖右文-->
+          <div class="detail_box">
+            <div class="detail_t"><img src="../Upload/course/course_201801291237096.jpg" width="100%"></div>            <div class="detail_r"><p>The iSIM course series provides a variety of targeted grasping methods from the most basic theoretical considerations, to teaching skills, designing lesson plans, guided feedback, analysis of evaluation tools, teamwork and other teacher competence, as well as educational research.</p>
+
+<p>The iSIM Fundamentals basic course has two days. The basic course mainly provides the most basic and primary teacher training method theory, so that students can master teaching plan writing skills and practical content to improve feedback ability. At the end of the course, a certificate signed by the University of Pittsburgh will be issued.</p></div>          </div>
+          <!--右圖左文-->
+          <div class="detail_box">
+            <div class="detail_t2"><div style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 14px;">
+<div>&nbsp;</div>
+</div></div>            <div class="detail_r2"><img src="../Upload/course/course_201801291237097.jpg" width="100%"></div>          </div>
+          <!--下圖上文-->
+                    <div class="detail_box"><img src="../Upload/course/course_201801291237098.jpg"></div>
+                              <!--youtube-->
+                    <div class="back_btn"><a href="javascript:history.back()">Back</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <form id="SearchF" name="SearchF" method="post" action="">
+  <input name="Page" type="hidden" id="Page" value="" />
+  <input name="Keyword" type="hidden" id="Keyword" value="" />
+</form>
+<footer>
+  <div class="goTop"><a href="#"><img src="../images/all/gotop.png"></a></div>
+  <div class="footer_info">
+    <img src="../images/all/footer_logo.png" class="footer_logo">
+    <div class="flt">This site belongs to Center for Education in Medical Simulation copyright, please see the rules of use.  &emsp;Updated:2023/11/28<br>
+      Address：250, Wuxing St., Xinyi Dist., Taipei City, Taiwan (R.O.C.)&emsp;Phone：886-2-2736-1661&emsp;ext.3330、3333、3336<br>
+      E-Mail：<a href="mailto:hungchen@tmu.edu.tw">hungchen@tmu.edu.tw</a> &nbsp; Design by <a href="https://www.tsg.com.tw/" target="_blank">TSG</a>
+    </div>
+  </div>
+</footer>
+</body>
+
+</html>

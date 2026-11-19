@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*中心成員*/
+.pelple_box{ overflow:hidden; margin-bottom:15px;}
+.pelple_info{ width: 350px;  margin-left: 20px; margin-right: 10px;}
+.pelple_info i{ 
+	border: 1px #b1764a solid;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    background-color: #fff;
+    color: #b1764a;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 10px;
+	}
+.pelple_info p{ margin-bottom:15px; border-bottom:1px #ccc dashed; padding-bottom:15px;}
+.main_txt{ font-size:24px; color:#b1764a;}
+ul.word2{ margin: .5em 0 0 0; padding: 5px 0 5px 10px; list-style-type:none;}
+ul.word2 li{ margin-bottom:8px;}
+.flt{ float:left;}
+.p_img{ width:360px;}
